@@ -1,0 +1,66 @@
+
+/*  background  */
+.back_img {
+  position: absolute;
+  background: rgba(100, 149, 237, 0.5);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: -1;
+}
+.backFone {
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+/*   -----------   */
+
+.linkRepo {
+  text-decoration: none;
+  color: #000;
+}
+
+.linkRepo:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  color: darkblue
+}
+.searchField {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.matTableFilterPaginator .matForm {
+  text-align: center;
+}
+
+
+/* Structure */
+.matTableFilterPaginator table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.matTableFilterPaginator .mat-form-field {
+  font-size: 14px;
+  width: 90%;
+}
+
+.matTableFilterPaginator mat-paginator {
+  width: 100%;
+}
+
+.tablePaginator {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.starIcon {
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.searchForm {
+  width: 50%;
+}
+
+:host ::ng-deep .mat-form-field-flex {
+  background-color: aliceblue;
+}

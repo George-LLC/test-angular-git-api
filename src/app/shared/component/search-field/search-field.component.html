@@ -1,0 +1,11 @@
+
+<mat-form-field class="example-form-field searchForm" appearance="fill">
+  <mat-label>Type the repository name to search in all repositories in GIT</mat-label>
+  <input matInput type="text" [(ngModel)]="inputValue" (keyup.enter)="routerNavigate(); changeValue(inputValue)">
+  <button *ngIf="inputValue" matSuffix mat-icon-button aria-label="Clear" (click)="inputValue=''">
+    <mat-icon>close</mat-icon>
+  </button>
+  <button matSuffix mat-icon-button aria-label="Clear" (click)="routerNavigate(); changeValue(inputValue)">
+    <mat-icon>search</mat-icon>
+  </button>
+</mat-form-field>
